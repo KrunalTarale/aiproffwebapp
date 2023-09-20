@@ -1,0 +1,18 @@
+.article h1 {
+  font-family: 'Bower', Georgia, 'Times New Roman', serif;
+}
+
+.article p {
+  font-family: 'Helvetica Neue', Calibri, Corbel, Helvetica, Roboto, Droid,
+    sans-serif;
+}
+
+.chat-bubble::before {
+  content: '';
+  position: absolute;
+  top: -8px; /* Adjust as needed */
+  left: 10px; /* Adjust as needed */
+  border-width: 0 8px 8px 8px;
+  border-color: transparent transparent #ffffff transparent;
+  filter: drop-shadow(2px -2px 2px rgba(0, 0, 0, 0.1));
+}

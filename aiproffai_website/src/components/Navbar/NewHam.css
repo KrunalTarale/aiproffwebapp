@@ -1,0 +1,23 @@
+.NewHam {
+  font-family: 'Helvetica Neue', Calibri, Corbel, Helvetica, Roboto, Droid,
+    sans-serif;
+}
+
+.NewHam h1 {
+  font-family: 'Bower', Georgia, 'Times New Roman', serif;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  z-index: 9999; /* Ensure the modal is above other content */
+}
+
+.modal-content {
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

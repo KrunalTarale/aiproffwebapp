@@ -1,0 +1,10 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* App.css */
+
+.container {
+  height: 70vh; /* Set the height to 70% of the viewport height */
+}
